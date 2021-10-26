@@ -25,7 +25,8 @@
     "offlineClientsEnabled": false
   },
   "group": {
-    "nonAdminCreationEnabled": true
+    "nonAdminCreationEnabled": true,
+    "nameValidationRegex": "[a-zA-Z0-9_.]+"
   },
   "subscription": {
     "deliveryTypes": [

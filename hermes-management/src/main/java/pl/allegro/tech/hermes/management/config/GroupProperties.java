@@ -9,11 +9,21 @@ public class GroupProperties {
 
     private boolean nonAdminCreationEnabled = false;
 
+    private String allowedGroupName =  "[a-zA-Z0-9_.]+";
+
     public boolean isNonAdminCreationEnabled() {
         return nonAdminCreationEnabled;
     }
 
     public void setNonAdminCreationEnabled(boolean nonAdminCreationEnabled) {
         this.nonAdminCreationEnabled = nonAdminCreationEnabled;
+    }
+
+    public String getAllowedGroupName() {
+        return allowedGroupName;
+    }
+
+    public void setAllowedGroupName(String allowedGroupName) {
+        this.allowedGroupName = allowedGroupName;
     }
 }

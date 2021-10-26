@@ -57,7 +57,8 @@
         "offlineClientsEnabled": false
     },
     "group": {
-        "nonAdminCreationEnabled": false
+        "nonAdminCreationEnabled": false,
+        "nameValidationRegex": "[a-zA-Z0-9_.]+"
     },
     "subscription": {
         "endpointAddressResolverMetadata": {
